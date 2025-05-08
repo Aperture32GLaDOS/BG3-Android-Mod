@@ -20,7 +20,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="32bf18f0-e263-4e5e-a039-ca76f37cd8dd" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="16233738-7d0f-4275-98b3-e0c728c8f538" />
         <field name="FSName" type="StringTableFieldDefinition" value="Android" />
-        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Semiperfect_Android;Semiperfect_Fear_Aura" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cb659e51-35ec-4532-9650-a2bcb721787b,,Intelligence,,AlwaysPrepared)" />
@@ -32,7 +32,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4c14f21d-0ca4-4110-b30d-b744974bfc5c" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="16233738-7d0f-4275-98b3-e0c728c8f538" />
         <field name="FSName" type="StringTableFieldDefinition" value="Android" />
-        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="Level" type="ByteTableFieldDefinition" value="20" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Perfect_Android;Perfect_Immortality;Perfect_Rolls;Perfect_Calmness" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(655a8b48-6231-47ef-9805-6b59e3c6db5e,,Intelligence,,AlwaysPrepared)" />
