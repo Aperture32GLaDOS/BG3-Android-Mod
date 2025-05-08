@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="760c7f39-bbf9-42a9-b0cd-eaae41219302" />
+        <field name="Name" type="NameTableFieldDefinition" value="Android Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_AndroidBlast;Projectile_AndroidFly" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb659e51-35ec-4532-9650-a2bcb721787b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Semi-Perfect Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_SemiperfectRecovery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="655a8b48-6231-47ef-9805-6b59e3c6db5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perfect Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PerfectKill;Target_PerfectStep;Shout_PerfectRecovery;Zone_PerfectBeam" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

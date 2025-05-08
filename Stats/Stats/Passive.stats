@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86f49356-9849-4594-a342-7a436e0150fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Regeneration_Android" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6db0f5a0g3045gd27dg8186g21494590d556" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94f8d5e7g53dcg5eccg6febg5e967de794d4" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(60)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ANDROID_REGENERATION,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Regeneration" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnObscurityChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,ANDROID_REGENERATION)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88db81f6-fde4-4349-90b2-f5f9977980b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Imperfect_Android" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha831e4d7g83ecgaf59g6a47ga7277ac63d95" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h221dc348gd2a7g0a9bgbafcg63c7d07af77a" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(7);RollBonus(Attack,4);Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;4" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45130108-ec90-4d33-b876-e8414ca58d5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Semiperfect_Android" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha656929eg161cgc4e1g51ceg29657982f0b2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac1a48dgf8aag71adga607gb48324c5d5ca" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3;80;10" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);Resistance(Acid, Resistant);Resistance(Cold, Resistant);Resistance(Fire, Resistant);Resistance(Force, Resistant);Resistance(Lightning, Resistant);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);Resistance(Psychic, Resistant);Resistance(Radiant, Resistant);Resistance(Thunder, Resistant);IncreaseMaxHP(80);ActionResource(ActionPoint, 3, 0);ActionResource(BonusActionPoint, 3, 0);ActionResource(Movement, 10, 0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2f1f0a6-14b9-4e96-9144-e83274cb53d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Semiperfect_Fear_Aura" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c6295a3g3054g5cddg2aceg7c78fff524ab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h356e50b0g64ccg6fc5g32f9g8828decc5e25" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="32" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Tactical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ANDROID_FEAR_AURA,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,ANDROID_FEAR_AURA)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31831b9a-1a5b-40d4-bb14-a4e911fec08c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perfect_Android" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21a296bcg250cg5a90g626ag56f5cddd7b67" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7cb5b6ege74fg6fe9g6d7eg5a1bf9e94696" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Immune);Resistance(Piercing, Immune);Resistance(Slashing, Immune);Resistance(Acid, Immune);Resistance(Cold, Immune);Resistance(Fire, Immune);Resistance(Force, Immune);Resistance(Lightning, Immune);Resistance(Necrotic, Immune);Resistance(Poison, Immune);Resistance(Psychic, Immune);Resistance(Radiant, Immune);Resistance(Thunder, Immune);IncreaseMaxHP(800);ActionResource(ActionPoint, 6, 0);ActionResource(BonusActionPoint, 6, 0);ActionResource(ReactionActionPoint, 6, 0);ActionResource(Movement, 100, 0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="635a12a5-be7c-461c-ba94-cc8e0a70f2e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perfect_Immortality" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4495deebgc31bgebcdg5612ge2659198a11c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83fc91cbg29c6g7e05gcfe9gbb7948cca6c3" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RelentlessEndurance" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,PERFECT_IMMORTALITY,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,PERFECT_IMMORTALITY)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e6302c7-4076-4e24-8903-e0b77513b63f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perfect_Rolls" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3946ee62g8ee4ge4d5gb8bag4ea84289a047" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0780d0acge1e8g6c39gfce5g9b6415bedd7c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Halfling_Lucky" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Attack,19,true);Reroll(SkillCheck,19,true);Reroll(RawAbility,19,true);Reroll(SavingThrow,19,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffeb268d-88bf-4b3b-8e29-85edf09b1e1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Perfect_Calmness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3a184656g0bd2gc0dfgf0b9gd4f239a7fa84" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d595dceg335cgc323ge590gea14807c8699" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CalmEmotions" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

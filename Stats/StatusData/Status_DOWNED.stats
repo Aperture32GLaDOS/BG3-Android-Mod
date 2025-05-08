@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="030d44f1-be8c-4538-9512-08111d49292a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a2b9eef-bdf5-41aa-8d2c-f47f0de3c378" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFECT_IMMORTALITY_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f04af57-b58e-42e1-915f-8963309539f6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7443495fg20bcg0539ga2fbg7f491ca1cb6b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RelentlessEndurance" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(2000,Guaranteed)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Incapacitated" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

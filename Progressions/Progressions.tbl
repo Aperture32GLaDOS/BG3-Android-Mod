@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_104" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8cd4d298-fbe2-4877-a6a7-43dcc79d6cc2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="16233738-7d0f-4275-98b3-e0c728c8f538" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Android" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;FeyAncestry;Regeneration_Android;Imperfect_Android" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Dexterity,2);Ability(Charisma,1);ActionResource(Movement,9,0);ProficiencyBonus(Skill,Perception)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(760c7f39-bbf9-42a9-b0cd-eaae41219302,,Intelligence,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="32bf18f0-e263-4e5e-a039-ca76f37cd8dd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="16233738-7d0f-4275-98b3-e0c728c8f538" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Android" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Semiperfect_Android;Semiperfect_Fear_Aura" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cb659e51-35ec-4532-9650-a2bcb721787b,,Intelligence,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4c14f21d-0ca4-4110-b30d-b744974bfc5c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="16233738-7d0f-4275-98b3-e0c728c8f538" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Android" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Perfect_Android;Perfect_Immortality;Perfect_Rolls;Perfect_Calmness" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(655a8b48-6231-47ef-9805-6b59e3c6db5e,,Intelligence,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

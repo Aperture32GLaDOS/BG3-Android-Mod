@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2aa97e0-8eaf-491c-a615-52f6dc96728b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PerfectKill" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Enchantment" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="Kill()" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="64" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead();" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2e680c80gd52eg92fegb14cg182be4b7b629" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec248fb3gf6b8ge991g45ffg6ef8896cc956" version="2" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3e235dc6-2b15-4edd-863f-18efb96dbb92,,;,,;af73cecb-e6e2-432e-bb91-aa14769b9f84,,;b68f8e77-c0fb-4b1c-b9aa-5bb585e7f182,,;13c4407f-4ffb-4e6a-8a1a-57234fba51dc,,;,,;17aba8de-ced8-4456-90ce-751b99c7866b,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bde2ae3f-f179-4e22-81a6-96ad4db6f212" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8801615b-2942-418b-821b-4f29a8af10dc" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="c76a7a05-3a68-4bfb-b1a4-db8ff29ce088" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_PowerWordKill_L9" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Control_PowerWordKill_L9" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_PowerWordKill_L9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_PowerWordKill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="698e5efa-875e-4ce4-8a6f-ec2e69ee1ddb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PerfectStep" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="64" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h934a7766gf7f5g5afagbf17g6a5b2cadecb7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9bdc745g7cb7g4d06g0a40gd6a67a96956b" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Invisible;IsSpell;IgnoreVisionBlock" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="71859b27-bdda-44c3-8c65-7f142a1a2f60" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

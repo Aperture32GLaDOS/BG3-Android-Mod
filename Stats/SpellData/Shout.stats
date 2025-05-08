@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03468399-c471-48d2-9a39-03d5ff17cc64" />
+        <field name="Name" type="NameTableFieldDefinition" value="SemiperfectRecovery" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ALCH_POTION_REST_SLEEP_LESSER_RESTORATION,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_PrayerOfHealing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hddeda246ge004g7aa7gffb5gb85c65320e1e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef6da544g91dagb7efgffb7gc8e0d1fd397b" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_PrayerOfHealing_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_PrayerOfHealing_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Prayer" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1406899b-9de3-426b-9251-9e7d3bfacedf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="df9ffd5a-deb8-4a27-8e37-e7f688579fd4" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ALCH_POTION_REST_SLEEP_LESSER_RESTORATION,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5222c262-b282-44ba-8ded-a20e093b54d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PerfectRecovery" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ALCH_POTION_REST_SLEEP_GREATER_RESTORATION,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_PrayerOfHealing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a328521gc6b0gfd36gbed9gbf670a8b40c2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23a1a197ge8e4g4b7ag412cg3dfb970b39f7" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ALCH_POTION_REST_SLEEP_GREATER_RESTORATION,100,1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_PrayerOfHealing_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_PrayerOfHealing_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Prayer" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1406899b-9de3-426b-9251-9e7d3bfacedf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="df9ffd5a-deb8-4a27-8e37-e7f688579fd4" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62b1d559-472d-4409-a5b1-f4ce9688edb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ANDROID_REGENERATION" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Regeneration" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ANDROID_REGENERATION" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(60)" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasHPPercentageLessThan(100)):RegainHitPoints(60)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource;DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Toggle" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusEvent" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fcbc60agacf9g0f78gdb70g170262123bdd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha96ff286gf66fg0d0ag4acdg65b302b6801a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a64b4f4d-487b-44ca-a29d-e5c1a16333dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ANDROID_FEAR_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he825c7edg92ecg143cgc1b5gcdf6871bbba8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc50e2f52g0dfdg01dfg417ageab1b70b98a1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Frightened" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Yellow" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ANDROID_FEAR_AURA" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="10" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and Enemy()):ApplyStatus(FRIGHTENED,100,1)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Toggle" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd4b0b47-3595-401b-890c-1d8679eba75c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFECT_IMMORTALITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ae80d4d4-bc49-40c1-9e09-8e932c8fe8f7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he85db45bg5245g1c17g8de8g82baa3b31517" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RelentlessEndurance" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SoundStop" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PERFECT_IMMORTALITY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(PERFECT_IMMORTALITY_DOWNED,5);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
