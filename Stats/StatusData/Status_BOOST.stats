@@ -53,5 +53,20 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2d82cbe-59cd-4688-984b-a7522cfa6129" />
+        <field name="Name" type="NameTableFieldDefinition" value="ANDROID_SEE_INVISIBILITY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c3d8b65g7b65g959bg059dgcd958236b9b3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1475a62bg37c2g2946gfffag29d075d26959" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(32)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_SeeInvisibility" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ANDROID_SEE_INVISIBILITY" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="32" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(not HasAnyStatus({'SG_Unconscious','SG_Incapacitated','SG_Blinded'},{},{},context.Source) and not Ally() and HasStatus('SG_Invisible')):ApplyStatus(SEE_INVISIBILITY_REVEAL)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="CanAffectInvisibleItems;AIIgnoreOnSelf" enumeration_type_name="AuraFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d8452a11-7c66-45fb-8ccb-64e2fa56ada5" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

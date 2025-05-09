@@ -45,7 +45,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Semiperfect_Fear_Aura" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c6295a3g3054g5cddg2aceg7c78fff524ab" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h356e50b0g64ccg6fc5g32f9g8828decc5e25" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="32" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(32)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Tactical" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ANDROID_FEAR_AURA,100,-1)" />
@@ -95,6 +95,20 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CalmEmotions" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24b5c6be-59ef-4ccc-aff8-88c8e807b698" />
+        <field name="Name" type="NameTableFieldDefinition" value="Android_Sight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h017e72b5g3d07ga543ge00ag1e346eeaf39e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11f1d724g3b92g2a53g8e56gd0d1afd12d56" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(32)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DevilsSight" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(32);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ANDROID_SEE_INVISIBILITY,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,ANDROID_SEE_INVISIBILITY)" />
       </fields>
     </stat_object>
   </stat_objects>
