@@ -83,7 +83,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0780d0acge1e8g6c39gfce5g9b6415bedd7c" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Halfling_Lucky" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Attack,19,true);Reroll(SkillCheck,19,true);Reroll(RawAbility,19,true);Reroll(SavingThrow,19,true);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="MinimumRollResult(Attack,20);MinimumRollResult(SkillCheck,20);MinimumRollResult(RawAbility,20);MinimumRollResult(SavingThrow,20);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
